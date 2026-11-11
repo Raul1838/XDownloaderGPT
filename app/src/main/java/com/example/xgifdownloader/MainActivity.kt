@@ -56,7 +56,7 @@ class MainActivity : Activity() {
         })
         linkInput = EditText(this).apply {
             hint = "https://x.com/usuario/status/…"
-            singleLine = true
+            setSingleLine(true)
             textSize = 14f
             setPadding(dp(12), dp(12), dp(12), dp(12))
         }
